@@ -3,3 +3,21 @@
 MD5 faster than SHA hashing
 http://stackoverflow.com/questions/2722943/is-calculating-an-md5-hash-less-cpu-intensive-than-sha-1-or-sha-2
 
+SIMHASH is TF, try incorporating IDF
+
+Implement tf idf
+
+
+test simhash when doing artificial modifications from 0-35%
+	- resulte din 0.8 accuracy
+
+test tf-idf when doing artificial modifications from 0-35%
+	- resulted in 0.87 accuracy	
+
+python tester.py ../data/en_short_data
+
+
+
+
+try out different simhash lengths
+try out different tokenization schemes (like kgrams)

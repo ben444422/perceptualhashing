@@ -21,3 +21,12 @@ python tester.py ../data/en_short_data
 
 try out different simhash lengths
 try out different tokenization schemes (like kgrams)
+
+
+
+
+
+SimHashTfIdf
+	In terms of performance ... still need to do the entire tfidf of the document set 
+	benefit of including idf without the memory cost of saving the different vectors (only a bit string)
+	SIMHASH is also not conducive for a rolling function 
